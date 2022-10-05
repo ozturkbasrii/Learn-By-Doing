@@ -11,6 +11,11 @@
 		A49B13A428ED5EA500D13908 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49B13A328ED5EA500D13908 /* ContentView.swift */; };
 		A49B13A628ED5EA600D13908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49B13A528ED5EA600D13908 /* Assets.xcassets */; };
 		A49B13A928ED5EA600D13908 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49B13A828ED5EA600D13908 /* Preview Assets.xcassets */; };
+		A49B13B028ED789100D13908 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49B13AF28ED789100D13908 /* CardView.swift */; };
+		A49B13B228ED7E1200D13908 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49B13B128ED7E1200D13908 /* CardModel.swift */; };
+		A49B13B428ED7EEF00D13908 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49B13B328ED7EEF00D13908 /* CardData.swift */; };
+		A49B13B628ED82FB00D13908 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A49B13B528ED82FB00D13908 /* sound-chime.mp3 */; };
+		A49B13B828ED831200D13908 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49B13B728ED831200D13908 /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		A49B13A328ED5EA500D13908 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A49B13A528ED5EA600D13908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A49B13A828ED5EA600D13908 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A49B13AF28ED789100D13908 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A49B13B128ED7E1200D13908 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		A49B13B328ED7EEF00D13908 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		A49B13B528ED82FB00D13908 /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
+		A49B13B728ED831200D13908 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,13 @@
 			children = (
 				A49B13A128ED5EA500D13908 /* Learn_By_DoingApp.swift */,
 				A49B13A328ED5EA500D13908 /* ContentView.swift */,
+				A49B13AF28ED789100D13908 /* CardView.swift */,
 				A49B13A528ED5EA600D13908 /* Assets.xcassets */,
+				A49B13B128ED7E1200D13908 /* CardModel.swift */,
+				A49B13B328ED7EEF00D13908 /* CardData.swift */,
+				A49B13B528ED82FB00D13908 /* sound-chime.mp3 */,
 				A49B13A728ED5EA600D13908 /* Preview Content */,
+				A49B13B728ED831200D13908 /* PlaySound.swift */,
 			);
 			path = "Learn By Doing";
 			sourceTree = "<group>";
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A49B13A928ED5EA600D13908 /* Preview Assets.xcassets in Resources */,
+				A49B13B628ED82FB00D13908 /* sound-chime.mp3 in Resources */,
 				A49B13A628ED5EA600D13908 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49B13B428ED7EEF00D13908 /* CardData.swift in Sources */,
+				A49B13B828ED831200D13908 /* PlaySound.swift in Sources */,
 				A49B13A428ED5EA500D13908 /* ContentView.swift in Sources */,
+				A49B13B228ED7E1200D13908 /* CardModel.swift in Sources */,
+				A49B13B028ED789100D13908 /* CardView.swift in Sources */,
 				A49B13A228ED5EA500D13908 /* Learn_By_DoingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
